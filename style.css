@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.head h1{
+    background-color:violet;
+    line-height: 500px;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+/* Navbar Styling */
+.navbar{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.navbar li{
+    float: left;
+    width: 25%;
+    background-color: violet;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.navbar li:hover{
+    background-color: rgb(192, 104, 192);
+}
