@@ -37,3 +37,23 @@
 .navbar li:hover{
     background-color: rgb(192, 104, 192);
 }
+
+/* About */
+.about{
+    margin-left: 470px;
+    margin-top: 50px;
+    font-size: larger;
+}
+.about h1{
+    margin-left: 15px;
+}
+.about p{
+    width: 650px;
+    float: left;
+    border: 2px solid violet;
+    border-right: 0px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+/* Skills */
