@@ -26,15 +26,18 @@
 .navbar li{
     float: left;
     width: 25%;
-    background-color: violet;
     
 }
 .navbar a{
+    display: block;
     text-decoration: none;
     color: black;
     font-size: larger;
+    width: 100%;
+    background-color: violet;
+
 }
-.navbar li:hover{
+.navbar a:hover{
     background-color: rgb(192, 104, 192);
 }
 
@@ -57,3 +60,23 @@
 }
 
 /* Skills */
+#skills_heading{
+    font-size: 40px;
+}
+.skills{
+    margin-top: 15px;
+}
+.skills_timeline_grid{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 10px;
+}
+.skills_timeline_grid div{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 13px;
+    padding: 100px;
+}
+.skills_timeline_grid div:hover{
+    background-color: whitesmoke;
+}
