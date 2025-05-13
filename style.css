@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: rgb(255, 180, 193);
+}
 /* Header Styling */
 .head h1{
-    background-color:violet;
+    background-color:rgb(170, 38, 170);
     line-height: 500px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     width: 100%;
+    color: aliceblue;
 }
 
 /* Navbar Styling */
@@ -21,7 +24,7 @@
 .navbar ul{
     list-style-type: none;
     overflow: hidden;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .navbar li{
     float: left;
@@ -33,6 +36,7 @@
     text-decoration: none;
     color: black;
     font-size: larger;
+    font-weight: bolder;
     width: 100%;
     background-color: violet;
 
@@ -41,41 +45,68 @@
     background-color: rgb(192, 104, 192);
 }
 
+/* Container Styling */
+.container{
+    max-width: 1500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgb(225, 224, 224);
+    border-radius: 12px;
+    box-shadow: 12px rgba(0, 0, 0, 0.1);
+}
 /* About */
 .about{
-    margin-left: 470px;
+    margin-left: 100px;
     margin-top: 50px;
     font-size: larger;
 }
 .about h1{
-    margin-left: 15px;
+    margin-left: -35px;
+    font-size: 49px;
+    background-color:violet;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 4px;
 }
 .about p{
     width: 650px;
     float: left;
-    border: 2px solid violet;
-    border-right: 0px;
-    padding: 15px;
-    margin-top: 25px;
+    margin-top: 35px;
+    margin-left: 50px;
+   
+}
+.about img{
+    border-radius: 13px;
+    margin-left: 100px;
 }
 
 /* Skills */
 #skills_heading{
-    font-size: 40px;
+    font-size: 49px;
+    background-color: rgba(238, 130, 238, 0);
+    text-align: center;
+    
 }
 .skills{
-    margin-top: 15px;
+    margin-top: 50px;
 }
-.skills_timeline_grid{
-    margin-left: 15px;
+.skills_timeline_grid {
+    margin: 50px auto 0 auto; /* top, horizontal, bottom */
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    align-self: center;
+    width: 80%;
+    justify-items: center;
 }
+
 .skills_timeline_grid div{
     border: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 13px;
-    padding: 100px;
+    border-radius: 13px;  
+    width: 70%;
+}
+.skills_timeline_grid div h1{
+    text-align: center;
 }
 .skills_timeline_grid div:hover{
     background-color: whitesmoke;
