@@ -7,7 +7,7 @@
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-
+    <main> 
     <div class = "head">
         <h1> MY WEB-DESIGN JOURNEY</h1>
     </div>
@@ -31,7 +31,7 @@
 
         <hr>
         <div class = "skills" id= "skills">
-            <h1 id = "skills_heading"> <span style="background-color: violet; padding-left: 10px; padding-right: 10px; border-radius: 4px;"> Skills... </span></h1>  
+            <h1 id = "skills_heading"> <span style="background-color: violet; padding-left: 10px; padding-right: 10px; border-radius: 4px;"> Skills </span></h1>  
             
             <div class = "skills_timeline_grid">
                 <div> 
@@ -65,20 +65,53 @@
         </div>
         <hr>
         <div class = "projects" id = "projects">
-            <h1 id = "projects_heading"> <span style="background-color: violet; padding-left: 10px; padding-right: 10px; border-radius: 4px;"> Projects... </span></h1>
+            <h1 id = "projects_heading"> <span style="background-color: violet; padding-left: 10px; padding-right: 10px; border-radius: 4px;"> Projects </span></h1>
             <div class = "projects_grid">
-                <div> <a href = "https://fadumoawil3.github.io/Portfolio/" target="_blank"> <img src = "project1_portfolio.png" height = "300" width = "400"></a></div>
-                <div> <a href = "https://fadumoawil3.github.io/HomicideWebsite/" target="_blank"> <img src = "project2_homicide.png" height = "300" width = "400"></a></div>
-                <div> <a href = "https://fadumoawil3.github.io/Codeathon/" target="_blank"> <img src = "project3_codeathon.png" height = "300" width = "400"></a></div>
+                <div> <a href = "https://fadumoawil3.github.io/Portfolio/" target="_blank"> <img src = "project1_portfolio.png" height = "300" width = "400"></a> <br> <h2> Project 1: My Portfolio/Resume</h2></brZ></div>
+                <div> <a href = "https://fadumoawil3.github.io/HomicideWebsite/" target="_blank"> <img src = "project2_homicide.png" height = "300" width = "400"></a> <br> <h2> Project 2: Homicide Mock-Codeathon</h2></div>
+                <div> <a href = "https://fadumoawil3.github.io/Codeathon/" target="_blank"> <img src = "project3_codeathon.png" height = "300" width = "400"></a> <br> <h2> Project 3: Codeathon</h2></div>
             </div>
 
         </div>
+        <hr>
+        <div class = "contact" id = "contact">
+            <h1 id = "contact_heading"> <span style="background-color: violet; padding-left: 10px; padding-right: 10px; border-radius: 4px;"> Contact </span></h1>
+            
+            <form action = "/submit" method = "POST">
+                <label for="Subject"> Subject:</label>
+                <br> <!-- ADD PLACEHOLDERR-->
+                <input type="text" id ="Subject" name="Subject" required>
+                <br>
+                <br>
 
-        <div class = "contact">
+                <label for="name"> Your Name:</label>
+                <br>
+                <input type="text" id ="name" name="name" required>
+                <br>
+                <br>
 
+                <label for="email"> Email:</label>
+                <br>
+                <input type="text" id ="email" name="email" required>
+                <br>
+                <br>
+
+                <label for="message"> Message:</label>
+                <br>
+                <textarea id ="message" rows="4" id = "message" required></textarea>
+                <br>
+                <br>
+
+                <center>
+                    <button type="submit"> SUBMIT </button>
+                </center>
+                
+
+            </form>
         </div>
     </div>
 
-    <div class = "footer"> &copy; Fadumo Awil </div>
+    <div class = "footer"> <p> Copyright @Fadumo Awil 2025</p> </div>
+    </main>
 </body>
 </html>
