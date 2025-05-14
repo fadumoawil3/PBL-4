@@ -111,3 +111,13 @@ body{
 .skills_timeline_grid div:hover{
     background-color: whitesmoke;
 }
+
+/* Projects */
+.projects{
+    margin-top: 50px;
+}
+#projects_heading{
+    font-size: 49px;
+    background-color: rgba(238, 130, 238, 0);
+    text-align: center;
+}
